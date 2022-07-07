@@ -3,16 +3,17 @@ body {
     margin: 0%;
 }
 
-h1 {
-    font-size: 50px;
-}
-
 .A {
     color: orange;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -21,22 +22,24 @@ section {
 }
 
 .half-width img {
-    width: 80%;
+    width: 70%;
 }
 
-.link-button {
+.button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
-    color: aliceblue;
-    font-weight: 700;
     border-radius: 5px;
+    color: azure;
 }
 
-.top-banner {
-    background-image: url(images/top-banner.png)
-}
-
-.top-banner {
+.bg {
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }

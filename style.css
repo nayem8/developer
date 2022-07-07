@@ -11,7 +11,11 @@ h1 {
     font-size: 50px;
 }
 
-section {
+h2 {
+    font-size: 35px;
+}
+
+.C {
     display: flex;
     margin-bottom: 100px;
 }
@@ -42,4 +46,31 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.half {
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 30px grey;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+
+.D {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#E {
+    border-left: 8px solid aqua;
+}
+
+#F {
+    border-left: 8px solid aquamarine;
+}
+
+footer p {
+    text-align: center;
 }
